@@ -36,7 +36,7 @@ graph TD
     D --> G[Structured JSON]
     E --> G
     F --> G
-    G --> H[Interactive Applications]
+    G --> H[Interactive Applications] ```
 
 
 
