@@ -37,3 +37,60 @@ graph TD
     E --> G
     F --> G
     G --> H[Interactive Applications]
+
+# 🛠 Technical Approach
+
+## 🔬 Hybrid Analysis Engine
+
+We combine **machine learning insights** with **heuristic rules** for robust performance:
+
+### Visual Feature Extraction
+- Font size, weight, and style analysis
+- Positional context understanding
+- Statistical distribution modeling
+
+### Hierarchical Classification
+- Multi-level heading identification
+- Context-aware title detection
+- Adaptive thresholding for diverse documents
+
+### Output Generation
+- Clean JSON serialization
+- Page number mapping
+- Validation and error handling
+
+## 📚 Tech Stack
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| PDF Parsing | PyMuPDF (fitz) | High-performance text extraction |
+| ML Framework | scikit-learn | Heading classification |
+| Feature Engine | Custom Python | Contextual analysis |
+| Containerization | Docker | Reproducible execution |
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Docker installed ([Get Docker](https://docs.docker.com/get-docker/))
+- AMD64 architecture system
+
+### Installation & Usage
+
+```bash
+# Build the Docker image
+docker build --platform linux/amd64 -t pdf-insight-extractor .
+
+# Prepare your PDFs
+mkdir -p input output
+cp your_document.pdf input/
+
+# Run the extractor
+docker run --rm \
+  -v $(pwd)/input:/app/input \
+  -v $(pwd)/output:/app/output \
+  --network none \
+  pdf-insight-extractor
+
+# Retrieve results
+# Check the output/ directory for JSON files
+# Each input PDF will have a corresponding .json output
