@@ -1,0 +1,155 @@
+{
+    "title": "Faces Recognition and Facial Gender Classiﬁcation using Convolutional Neural Network",
+    "outline": [
+        {
+            "level": "H3",
+            "text": "Article  in  Menoufia Journal of Electronic Engineering Research · June 2022",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "1 author:",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "36 550",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Faces Recognition and Facial Gender Classification",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "using Convolutional Neural Network",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "neural networks has made it possible to have robust classifiers",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "for faces and facial gender for many security issues and",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "computer vision problems. This paper proposes two",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "convolutional neural network (CNN) models for face",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "recognition and facial gender classification. The models",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "consist of an image input layer, followed by three blocks of",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "convolutional, normalization, activation, and max-pooling",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "layers, and three fully connected layers. The performance of",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "the proposed CNN solutions is evaluated using five publicly",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "available face datasets. Two greyscale face datasets: Sheffield",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Celebrity Face Images from Kaggle. The achieved",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "classification accuracy ranged between 99.0% and 100% on",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "the Faces94, Ferret, Sheffield, and AT&T datasets, and",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "classification accuracy of 93.6% to 95.0% on the Kaggle",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "dataset. The proposed CNN can process and classify a small-",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "size face image 32 × 32-pixel from the Faces94, Sheffield, and",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "AT&T datasets and 100 × 100 pixels from the Ferret and",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Kaggle datasets. The obtained results prove that the proposed",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "CNN models are an effective solution for face image",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "recognition and facial gender image classification. The",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "proposed model produces competitive accuracy compared to",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "several state-of-the-art methods.",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "Face recognition; facial gender classification;",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "convolutional neural network; max pooling layer, fully",
+            "page": 2
+        },
+        {
+            "level": "H3",
+            "text": "TF FF",
+            "page": 5
+        }
+    ]
+}
