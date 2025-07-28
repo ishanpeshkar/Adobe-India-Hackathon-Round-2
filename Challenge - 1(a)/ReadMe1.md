@@ -9,7 +9,7 @@
 
 ### 📝 Intelligent PDF Outline Extraction with Advanced Pattern Recognition
 
-Transforming static PDFs into structured knowledge through intelligent heading detection and hierarchical understanding
+*Transforming static PDFs into structured knowledge through intelligent heading detection and hierarchical understanding*
 
 </div>
 
@@ -17,11 +17,11 @@ Transforming static PDFs into structured knowledge through intelligent heading d
 
 ## 🌟 Project Overview
 
-This repository contains our *revolutionary solution* for the Adobe India Hackathon 2025 "Connecting the Dots" Challenge. Our PDF outline extraction system transforms unstructured documents into intelligent, hierarchical knowledge structures through cutting-edge pattern recognition technology.
+This repository contains our **revolutionary solution** for the Adobe India Hackathon 2025 "Connecting the Dots" Challenge. Our PDF outline extraction system transforms unstructured documents into intelligent, hierarchical knowledge structures through cutting-edge pattern recognition technology.
 
 ### 🎯 Challenge Focus
 
-*📖 Challenge 1A: Document Structure Intelligence*
+**📖 Challenge 1A: Document Structure Intelligence**
 > Extract meaningful titles and hierarchical outlines from diverse PDF documents with precision and intelligence
 
 ---
@@ -32,22 +32,22 @@ This repository contains our *revolutionary solution* for the Adobe India Hackat
 <tr>
 <td width="50%">
 
-### 🚀 *Core Capabilities*
-- 📊 *Smart Title Detection* - Dynamic document-aware extraction
-- 🏗 *Hierarchical Structure* - H1/H2/H3/H4 level classification
-- 🎯 *Pattern Recognition* - Intelligent text analysis algorithms
-- 🔄 *Multi-Format Support* - Academic, Technical, Business documents
-- 🧠 *Context Understanding* - Document-type specific processing
+### 🚀 **Core Capabilities**
+- 📊 **Smart Title Detection** - Dynamic document-aware extraction
+- 🏗️ **Hierarchical Structure** - H1/H2/H3/H4 level classification
+- 🎯 **Pattern Recognition** - Intelligent text analysis algorithms
+- 🔄 **Multi-Format Support** - Academic, Technical, Business documents
+- 🧠 **Context Understanding** - Document-type specific processing
 
 </td>
 <td width="50%">
 
-### ⚡ *Performance Metrics*
-- ⏱ *Lightning Speed*: <10 seconds for 50+ page documents
-- 💾 *Memory Efficient*: <200MB model footprint
-- 🎯 *High Accuracy*: 95%+ title detection, 92%+ heading recall
-- 🖥 *CPU Optimized*: No GPU requirements
-- 📦 *Production Ready*: Full Docker containerization
+### ⚡ **Performance Metrics**
+- ⏱️ **Lightning Speed**: <10 seconds for 50+ page documents
+- 💾 **Memory Efficient**: <200MB model footprint
+- 🎯 **High Accuracy**: 95%+ title detection, 92%+ heading recall
+- 🖥️ **CPU Optimized**: No GPU requirements
+- 📦 **Production Ready**: Full Docker containerization
 
 </td>
 </tr>
@@ -55,30 +55,30 @@ This repository contains our *revolutionary solution* for the Adobe India Hackat
 
 ---
 
-## 🏗 Technical Architecture
+## 🏗️ Technical Architecture
 
-### 🔧 *System Design*
+### 🔧 **System Design**
 
-mermaid
+```mermaid
 graph TB
     A[📄 PDF Input] --> B[🔍 Text Extractor]
     B --> C[🧠 Pattern Analyzer]
-    C --> D[🏗 Structure Detector]
+    C --> D[🏗️ Structure Detector]
     D --> E[📊 Hierarchy Builder]
     E --> F[📋 JSON Output]
     
     G[📐 Font Analysis] --> C
     H[📍 Position Detection] --> C
     I[🎨 Style Recognition] --> C
-
+```
 
 <details>
 <summary><b>🔍 Component Details</b></summary>
 
-- *📄 Text Extraction*: Advanced PyMuPDF-based text and style analysis
-- *🧠 Pattern Analysis*: Multi-factor scoring with font, position, and content analysis
-- *🏗 Structure Detection*: Intelligent heading level classification
-- *📊 Hierarchy Building*: Smart outline generation with duplicate removal
+- **📄 Text Extraction**: Advanced PyMuPDF-based text and style analysis
+- **🧠 Pattern Analysis**: Multi-factor scoring with font, position, and content analysis
+- **🏗️ Structure Detection**: Intelligent heading level classification
+- **📊 Hierarchy Building**: Smart outline generation with duplicate removal
 
 </details>
 
@@ -86,10 +86,10 @@ graph TB
 
 ## 📁 Project Structure
 
-
+```
 🏆 adobe-hackathon-2025-1a/
 ├── 📂 input/                          # 📚 Sample PDF Documents
-│   ├── 📄 E0CCG5S239.pdf              # 🗃 LTC Application Form
+│   ├── 📄 E0CCG5S239.pdf              # 🗃️ LTC Application Form
 │   ├── 📄 E0CCG5S312.pdf              # 📖 ISTQB Overview Document
 │   ├── 📄 E0H1CM114.pdf               # 📋 RFP Business Plan
 │   ├── 📄 STEMPathwaysFlyer.pdf       # 🎓 Educational Pathway Guide
@@ -107,7 +107,7 @@ graph TB
 ├── 🚀 run_docker.ps1                  # 🤖 PowerShell Automation
 ├── 📚 DOCKER_GUIDE.md                 # 📖 Container Setup Guide
 └── 📖 README.md                       # 📋 This comprehensive documentation
-
+```
 
 ---
 
@@ -117,35 +117,35 @@ graph TB
 <tr>
 <td align="center" width="33%">
 
-### 🎯 *Pattern Recognition*
-Multi-Factor Analysis
+### 🎯 **Pattern Recognition**
+*Multi-Factor Analysis*
 
-📐 *Font Analysis*: Size, weight, style detection  
-📍 *Position Context*: Layout understanding  
-🎨 *Visual Hierarchy*: Style-based classification  
-📊 *Statistical Modeling*: Content distribution analysis  
-
-</td>
-<td align="center" width="33%">
-
-### 🏗 *Structure Detection*  
-Intelligent Classification
-
-🔤 *Text Processing*: Span combination and cleanup  
-📋 *Document Types*: RFP, Technical, Educational  
-🎭 *Content Patterns*: Keywords and formatting rules  
-📈 *Hierarchy Mapping*: H1-H4 level assignment  
+📐 **Font Analysis**: Size, weight, style detection  
+📍 **Position Context**: Layout understanding  
+🎨 **Visual Hierarchy**: Style-based classification  
+📊 **Statistical Modeling**: Content distribution analysis  
 
 </td>
 <td align="center" width="33%">
 
-### 📊 *Quality Assurance*
-Precision Enhancement
+### 🏗️ **Structure Detection**  
+*Intelligent Classification*
 
-🔍 *Duplicate Removal*: Smart deduplication  
-✅ *Validation Checks*: Content quality filtering  
-🎪 *Error Handling*: Robust failure management  
-📋 *Output Optimization*: Clean JSON generation  
+🔤 **Text Processing**: Span combination and cleanup  
+📋 **Document Types**: RFP, Technical, Educational  
+🎭 **Content Patterns**: Keywords and formatting rules  
+📈 **Hierarchy Mapping**: H1-H4 level assignment  
+
+</td>
+<td align="center" width="33%">
+
+### 📊 **Quality Assurance**
+*Precision Enhancement*
+
+🔍 **Duplicate Removal**: Smart deduplication  
+✅ **Validation Checks**: Content quality filtering  
+🎪 **Error Handling**: Robust failure management  
+📋 **Output Optimization**: Clean JSON generation  
 
 </td>
 </tr>
@@ -157,13 +157,13 @@ Precision Enhancement
 
 ### 📋 Prerequisites
 
-- 🐳 *Docker* with AMD64 support
-- 📁 *Git* for repository cloning
-- 🐍 *Python 3.10+* (for local development)
+- 🐳 **Docker** with AMD64 support
+- 📁 **Git** for repository cloning
+- 🐍 **Python 3.10+** (for local development)
 
 ### ⚡ One-Click Execution
 
-bash
+```bash
 # 🎯 Windows Users - Quick Start
 .\run_docker.bat
 
@@ -173,39 +173,39 @@ bash
 # 🐧 Linux/Mac Users
 docker build -t pdf-outline-extractor .
 docker run --rm -v "$(pwd)/input:/app/input" -v "$(pwd)/output:/app/output" pdf-outline-extractor
+```
 
-
-### 🛠 Manual Setup
+### 🛠️ Manual Setup
 
 <details>
 <summary><b>🔧 Step-by-step instructions</b></summary>
 
-*1️⃣ Clone the repository:*
-bash
+**1️⃣ Clone the repository:**
+```bash
 git clone <your-repo-url>
 cd adobe-hackathon-2025-1a
+```
 
-
-*2️⃣ Build Docker container:*
-bash
+**2️⃣ Build Docker container:**
+```bash
 docker build --platform linux/amd64 -t pdf-outline-extractor .
+```
 
-
-*3️⃣ Process your PDFs:*
-bash
+**3️⃣ Process your PDFs:**
+```bash
 # Place PDFs in input/ directory
 docker run --rm \
   -v "$(pwd)/input:/app/input" \
   -v "$(pwd)/output:/app/output" \
   --network none \
   pdf-outline-extractor
+```
 
-
-*4️⃣ Check results:*
-bash
+**4️⃣ Check results:**
+```bash
 # Find JSON outputs in output/ directory
 ls -la output/*.json
-
+```
 
 </details>
 
@@ -213,14 +213,14 @@ ls -la output/*.json
 
 ## 📊 Sample Processing Results
 
-### ✅ *Real Document Examples*
+### ✅ **Real Document Examples**
 
 <table>
 <tr>
 <td width="50%">
 
-#### 📄 *E0H1CM114.pdf* - RFP Document
-json
+#### 📄 **E0H1CM114.pdf** - RFP Document
+```json
 {
   "title": "To Present a Proposal for Developing the Business Plan for the Ontario Digital Library",
   "outline": [
@@ -236,13 +236,13 @@ json
     }
   ]
 }
-
+```
 
 </td>
 <td width="50%">
 
-#### 📄 *TOPJUMP-PARTY-INVITATION* - Event Document
-json
+#### 📄 **TOPJUMP-PARTY-INVITATION** - Event Document
+```json
 {
   "title": "",
   "outline": [
@@ -253,7 +253,7 @@ json
     }
   ]
 }
-
+```
 
 </td>
 </tr>
@@ -265,15 +265,15 @@ json
 
 <div align="center">
 
-### 🏆 *Challenge 1A Constraints*
+### 🏆 **Challenge 1A Constraints**
 
 | Metric | Specification | Our Achievement |
 |--------|---------------|-----------------|
-| ⏱ *Processing Speed* | Fast document analysis | <10s for complex PDFs |
-| 💾 *Memory Usage* | Efficient resource usage | <200MB footprint |
-| 🖥 *Runtime* | CPU-only operation | ✅ No GPU required |
-| 🏗 *Architecture* | AMD64 (linux/amd64) | ✅ Full compatibility |
-| 🌐 *Network* | Offline processing | ✅ No internet needed |
+| ⏱️ **Processing Speed** | Fast document analysis | <10s for complex PDFs |
+| 💾 **Memory Usage** | Efficient resource usage | <200MB footprint |
+| 🖥️ **Runtime** | CPU-only operation | ✅ No GPU required |
+| 🏗️ **Architecture** | AMD64 (linux/amd64) | ✅ Full compatibility |
+| 🌐 **Network** | Offline processing | ✅ No internet needed |
 
 </div>
 
@@ -283,15 +283,15 @@ json
 
 <div align="center">
 
-### 🛠 *Technology Stack*
+### 🛠️ **Technology Stack**
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
-| 📄 *PDF Processing* | PyMuPDF (fitz) | High-performance text extraction |
-| 🧠 *Pattern Analysis* | Custom Python algorithms | Font, position, content analysis |
-| 🏗 *Structure Detection* | Multi-factor scoring | Heading classification |
-| 📊 *Hierarchy Building* | Smart algorithms | H1-H4 level assignment |
-| 🐳 *Containerization* | Docker | Production deployment |
+| 📄 **PDF Processing** | PyMuPDF (fitz) | High-performance text extraction |
+| 🧠 **Pattern Analysis** | Custom Python algorithms | Font, position, content analysis |
+| 🏗️ **Structure Detection** | Multi-factor scoring | Heading classification |
+| 📊 **Hierarchy Building** | Smart algorithms | H1-H4 level assignment |
+| 🐳 **Containerization** | Docker | Production deployment |
 
 </div>
 
@@ -303,22 +303,22 @@ json
 <tr>
 <td width="50%">
 
-### 🎯 *Core Principles*
-- 🧩 *Document-Type Awareness*: Custom patterns for different PDF types
-- ⚡ *Performance Optimization*: CPU-only, memory-efficient processing
-- 🛡 *Robustness*: Advanced error handling and validation
-- 📚 *Maintainability*: Clean, modular code architecture
-- 📈 *Scalability*: Production-ready containerized solution
+### 🎯 **Core Principles**
+- 🧩 **Document-Type Awareness**: Custom patterns for different PDF types
+- ⚡ **Performance Optimization**: CPU-only, memory-efficient processing
+- 🛡️ **Robustness**: Advanced error handling and validation
+- 📚 **Maintainability**: Clean, modular code architecture
+- 📈 **Scalability**: Production-ready containerized solution
 
 </td>
 <td width="50%">
 
-### 🚀 *Advanced Features*
-- 🎨 *Visual Style Analysis*: Font size, weight, and formatting detection
-- 📍 *Positional Intelligence*: Layout-aware content understanding
-- 🔄 *Multi-Pass Processing*: Iterative refinement for accuracy
-- 📊 *Statistical Modeling*: Content distribution analysis
-- 🎭 *Content Pattern Recognition*: Domain-specific keyword detection
+### 🚀 **Advanced Features**
+- 🎨 **Visual Style Analysis**: Font size, weight, and formatting detection
+- 📍 **Positional Intelligence**: Layout-aware content understanding
+- 🔄 **Multi-Pass Processing**: Iterative refinement for accuracy
+- 📊 **Statistical Modeling**: Content distribution analysis
+- 🎭 **Content Pattern Recognition**: Domain-specific keyword detection
 
 </td>
 </tr>
@@ -328,21 +328,21 @@ json
 
 ## 🏅 Competition Readiness
 
-### 🎯 *Hackathon Compliance*
+### 🎯 **Hackathon Compliance**
 
-- ✅ *Offline Operation*: No network dependencies
-- ✅ *Docker Containerized*: Full production readiness
-- ✅ *Performance Optimized*: Meets all speed requirements
-- ✅ *Resource Efficient*: CPU-only, low memory usage
-- ✅ *Cross-Platform*: AMD64 architecture support
+- ✅ **Offline Operation**: No network dependencies
+- ✅ **Docker Containerized**: Full production readiness
+- ✅ **Performance Optimized**: Meets all speed requirements
+- ✅ **Resource Efficient**: CPU-only, low memory usage
+- ✅ **Cross-Platform**: AMD64 architecture support
 
-### 🏆 *Expected Scoring Advantages*
+### 🏆 **Expected Scoring Advantages**
 
-- 📊 *High Accuracy*: Advanced pattern recognition algorithms
-- ⚡ *Fast Processing*: Optimized for speed and efficiency
-- 🧠 *Intelligence*: Document-type aware processing
-- 🔧 *Reliability*: Robust error handling and validation
-- 📋 *Clean Output*: Well-structured JSON results
+- 📊 **High Accuracy**: Advanced pattern recognition algorithms
+- ⚡ **Fast Processing**: Optimized for speed and efficiency
+- 🧠 **Intelligence**: Document-type aware processing
+- 🔧 **Reliability**: Robust error handling and validation
+- 📋 **Clean Output**: Well-structured JSON results
 
 ---
 
@@ -350,15 +350,15 @@ json
 
 <div align="center">
 
-### 📚 *Diverse Document Support*
+### 📚 **Diverse Document Support**
 
 | Document Type | Intelligence Applied | Key Features |
 |---------------|---------------------|--------------|
-| 📋 *Business RFP* | Proposal structure recognition | Title extraction, section hierarchy |
-| 📖 *Technical Manual* | Standards-based formatting | Numbered sections, appendices |
-| 🎓 *Educational Content* | Learning pathway structure | Course outlines, requirements |
-| 🗃 *Forms & Applications* | Form field recognition | Title detection, empty outlines |
-| 🎉 *Event Materials* | Marketing content patterns | Key messaging extraction |
+| 📋 **Business RFP** | Proposal structure recognition | Title extraction, section hierarchy |
+| 📖 **Technical Manual** | Standards-based formatting | Numbered sections, appendices |
+| 🎓 **Educational Content** | Learning pathway structure | Course outlines, requirements |
+| 🗃️ **Forms & Applications** | Form field recognition | Title detection, empty outlines |
+| 🎉 **Event Materials** | Marketing content patterns | Key messaging extraction |
 
 </div>
 
@@ -368,13 +368,13 @@ json
 
 ## 📜 License
 
-This project is developed for the *Adobe India Hackathon 2025* competition.
+This project is developed for the **Adobe India Hackathon 2025** competition.
 
 ---
 
-### ⚠ *Important Notice*
+### ⚠️ **Important Notice**
 
-This is a competitive hackathon submission. The solution operates completely offline and meets all specified performance constraints for Challenge 1A.
+*This is a competitive hackathon submission. The solution operates completely offline and meets all specified performance constraints for Challenge 1A.*
 
 ---
 
@@ -383,8 +383,8 @@ This is a competitive hackathon submission. The solution operates completely off
 <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python" alt="Python"/>
 <img src="https://img.shields.io/badge/PDF-Processing-red?style=for-the-badge&logo=adobeacrobatreader" alt="PDF"/>
 
-*🏆 Ready to Extract Intelligence from Every PDF! 🏆*
+**🏆 Ready to Extract Intelligence from Every PDF! 🏆**
 
-Transform your documents from static text to structured knowledge with our advanced PDF outline extraction engine.
+*Transform your documents from static text to structured knowledge with our advanced PDF outline extraction engine.*
 
 </div>
