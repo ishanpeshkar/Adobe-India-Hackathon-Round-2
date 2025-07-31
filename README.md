@@ -33,9 +33,8 @@ The repository is organized into two main subdirectories, one for each challenge
 ├── 📂 Challenge_1a/                  # 📖 Document Structure Intelligence Solution
 │   ├── 📂 input/                      # 📚 Sample PDFs for outline extraction
 │   ├── 📂 output/                     # 📊 Generated JSON outlines
-│   ├── 🔧 main.py                    # 🎯 Core processing engine for 1A
+│   ├── 🔧 process_pdfs.py                    # 🎯 Core processing engine for 1A
 │   ├── 🐳 Dockerfile                  # 📦 Docker config for 1A
-│   ├── 🚀 run_docker.bat              # 🤖 Windows Quick Start for 1A
 │   ├── 📋 requirements.txt            # 📦 Python dependencies
 │   └── 📖 README.md                  # 📋 Detailed 1A documentation
 │
